@@ -7,7 +7,7 @@ import { CV } from '../CV/CV';
     providedIn: 'root'
   })
   export class SharedService {
-    readonly APIUrl="http://cvsystem-001-site1.ctempurl.com/api/CV";
+    readonly APIUrl="https://cvsystem-001-site1.ctempurl.com/api/CV";
   
     formData: CV = new CV();
     list?: CV[] ;
